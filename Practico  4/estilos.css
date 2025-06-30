@@ -1,0 +1,8 @@
+.presente {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.presente::before {
+    content: "✅";  
+}

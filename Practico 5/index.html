@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor</title>
+</head>
+<body>
+    <form onsubmit="agregarProducto(); return false">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="categoria" placeholder="Categoría" required>
+        <input type="number" id="precio" placeholder="Precio" required>
+        <button type="submit">Agregar auto</button>
+    </form>
+
+
+    <br>
+
+    <table border="1" id="resultado">
+        <thead>
+            <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Precio</th>
+            <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+     <script src="scripts.js"></script>
+</body>
+</html>

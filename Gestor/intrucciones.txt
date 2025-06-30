@@ -1,0 +1,33 @@
+📄 Actividad: Gestor de Productos
+
+🎯 Objetivo
+Desarrollar una aplicación web que permita registrar productos utilizando un formulario en HTML y guardar esa información en un array de objetos en JavaScript. Los datos cargados deberán mostrarse dinámicamente en una tabla dentro de la misma página.
+
+📌 Consigna
+Vas a crear una página web que funcione como un gestor de productos. La aplicación debe permitir al usuario:
+Ingresar los datos de un producto (nombre, categoría y precio) a través de un formulario.
+
+
+Guardar cada producto como un objeto dentro de un array.
+
+
+Mostrar todos los productos agregados en una tabla HTML, con numeración automática.
+
+
+Limpiar el formulario automáticamente después de agregar un producto.
+
+
+✅ Requisitos mínimos
+Crear un array vacío en JavaScript para almacenar los productos.
+
+
+Cada producto debe ser un objeto con al menos tres propiedades: nombre, categoría y precio.
+
+
+Al hacer clic en un botón (o enviar el formulario), se debe guardar el producto en el array.
+
+
+Actualizar la tabla en pantalla cada vez que se agregue un nuevo producto.
+
+
+Limpiar los campos del formulario luego de cada carga.

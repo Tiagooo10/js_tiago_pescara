@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor</title>
+</head>
+<body>
+    <form id="formulario">
+        <input id="nombre" type="text" placeholder="Nombre" />
+        <p id = "error_nombre"></p>
+        <input id="categoria" type="text" placeholder="Categoría" />
+        <p id = "error_categoria"></p>
+        <input id="precio" type="number" placeholder="Precio" />
+        <p id = "error_precio"></p>
+        <button type="submit">Agregar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody id="resultado"></tbody>
+    </table>
+
+     <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+body {
+  background-color: #2f2f2f;
+  color: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+#formulario {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+#formulario input {
+  width: 90%;
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #2f2f2f;
+  color: #ddd;
+}
+
+#formulario input::placeholder {
+  color: #aaa;
+}
+
+#formulario button {
+  padding: 8px 16px;
+  font-weight: bold;
+  background-color: #7986cb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#formulario button:hover {
+  background-color: #536dfe;
+}
+
+#selectores {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#selectores h4 {
+  margin: 0;
+}
+
+#selectores input,
+#selectores select,
+#selectores button {
+  padding: 7px 7px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background-color: #2f2f2f;
+  color: #ddd;
+}
+
+#selectores input::placeholder {
+  color: #aaa;
+}
+
+#tabla {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#tabla table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1000px;
+  background-color: #3a3a3a;
+  border: 1px solid #555;
+  box-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
+
+#tabla th {
+  background-color: #5c6bc0;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+#tabla td {
+  padding: 10px;
+  border-bottom: 1px solid #555;
+  color: #ddd;
+}
+
+#tabla tr:hover {
+  background-color: #4a4a4a;
+}
+
+#tabla button {
+  padding: 4px 8px;
+  margin-right: 4px;
+  border: none;
+  background-color: #7986cb;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#tabla button:hover {
+  background-color: #536dfe;
+}
+
+#tabla input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+#resumen {
+  max-width: 1000px;       
+  width: 76%;              
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #3b3b3b;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.8);
+  color: #ddd;
+  font-family: Arial, sans-serif;
+  text-align: center;      
+}
+
+#resumen h2 {
+  color: #7986cb;
+  margin-bottom: 15px;
+}
+
+#resumenLibros p {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #aab3ff;
+}
+
+
+
+
+
+
+

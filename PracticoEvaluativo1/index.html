@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico Evaluativo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+ </head>
+ <body>
+    <section id="formulario">
+            <h2> - Gestor de Libros - </h2>
+                <form onsubmit="agregarLibro(); return false">
+                    <input type="text" id="titulo" placeholder="Titulo del libro">
+                    <p id="errorTitulo"></p>
+                    <input type="text" id="autor" placeholder="Autor del libro">
+                    <p id="errorAutor"></p>
+                    <input type="number" id="anio" placeholder="Año del libro">
+                    <p id="errorNumero"></p>
+                    <input type="text" id="genero" placeholder="Genero del libro">
+                    <p id="errorGenero"></p>
+                    <button id="buttonFormulario" type="submit">Agregar Libro</button>
+                </form>
+                <br>
+    </section>
+    <section id="selectores">
+        <h4>Filtrar Libros</h4>
+        <input type="text" id="busqueda" placeholder="Buscar titulo" oninput="filtrarPorTitulo()">
+        <br>
+        <h4>Filtrar libros por genero</h4>
+        <select id="filtroGenero" onchange="filtrarPorGenero()">
+            <option value="todos">Todos</option>
+        </select>
+        <br>
+        <br>
+        <h4>Filtrar libros por leido</h4>
+        <select id="filtroLeido" onchange="filtrarPorLeido()">
+            <option value="todos">Todos</option>
+        </select>
+    
+        <br>
+        <br>
+        <button onclick="ordernarPorAnio()">Ordenar listado de libros por año</button>
+    </section>
+    <section id="tabla">
+        <br>
+        <br>
+        <table border="1" id="tablaLibros">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Titulo</th>
+                    <th>Autor</th>
+                    <th>Año</th>
+                    <th>Genero</th>
+                    <th>Acciones</th>
+                    <th>Leido</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </section>
+
+
+    <section id="resumen">
+    <h2>Resumen</h2>
+    <div id="resumenLibros"></div>
+    </section>
+ </body>
+
+ <script src="js/scripts.js"></script>
+ </html>
